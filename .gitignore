@@ -1,0 +1,14 @@
+logs/django.log
+logs/celery.log
+logs/celerybeat.log
+
+
+.env
+
+.DS_Store
+
+.venv
+
+
+
+

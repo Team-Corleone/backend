@@ -20,7 +20,8 @@ class MovieAdmin(admin.ModelAdmin):
     list_display = ('title', 'original_title', 'release_date', 'runtime', 'imdb_id')
     search_fields = ('title', 'original_title', 'imdb_id')
     list_filter = ('release_date', 'genres')
-    filter_horizontal = ('genres', 'cast', 'crew')
+    filter_horizontal = ('genres',)  # ✅ Correct way (tuple with a comma)
+
 
 @admin.register(MovieCast)
 class MovieCastAdmin(admin.ModelAdmin):

@@ -9,7 +9,8 @@ class CommunityAdmin(admin.ModelAdmin):
     list_display = ('name', 'creator', 'created_at', 'is_private')
     list_filter = ('is_private',)
     search_fields = ('name', 'description')
-    filter_horizontal = ('members', 'related_movies')
+    filter_horizontal = ()  # ✅ Remove problematic fields
+
     prepopulated_fields = {'slug': ('name',)}
 
 @admin.register(CommunityMember)

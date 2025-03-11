@@ -4,12 +4,17 @@ from django.utils.translation import gettext_lazy as _
 
 class User(AbstractUser):
     """Özelleştirilmiş kullanıcı modeli"""
+    email = models.EmailField(_('E-Posta'), unique=True)  # E-posta benzersiz olsun
     bio = models.TextField(_('Biyografi'), blank=True)
     avatar = models.ImageField(_('Profil Fotoğrafı'), upload_to='avatars/', null=True, blank=True)
     birth_date = models.DateField(_('Doğum Tarihi'), null=True, blank=True)
     is_premium = models.BooleanField(_('Premium Üye'), default=False)
     premium_until = models.DateTimeField(_('Premium Üyelik Bitiş'), null=True, blank=True)
-    
+    is_verified = models.BooleanField(_('E-posta Doğrulandı mı?'), default=False)  # Yeni alan
+
+    USERNAME_FIELD = 'email'  # Kullanıcı girişi için e-posta kullanılacak
+    REQUIRED_FIELDS = ['username']  # Süper kullanıcı oluştururken `username` gereksinimi devam eder
+
     class Meta:
         verbose_name = _('Kullanıcı')
         verbose_name_plural = _('Kullanıcılar')

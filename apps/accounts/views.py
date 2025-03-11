@@ -19,24 +19,60 @@ from .serializers import (
 from .models import UserDevice, Achievement, UserFollowing, UserBlock
 
 User = get_user_model()
+from django.urls import reverse
+def send_verification_email(user, request):
+    """Kullanıcıya doğrulama e-postası gönder"""
+    uid = urlsafe_base64_encode(force_bytes(user.pk))
+    token = default_token_generator.make_token(user)
 
+    verification_url = request.build_absolute_uri(
+        reverse("accounts:email-verify", kwargs={"uidb64": uid, "token": token})
+    )
+
+    subject = "Hesabınızı Doğrulayın"
+    message = f"Merhaba {user.username},\n\nHesabınızı doğrulamak için aşağıdaki linke tıklayın:\n\n{verification_url}"
+
+    send_mail(
+        subject,
+        message,
+        settings.DEFAULT_FROM_EMAIL,
+        [user.email],
+        fail_silently=False,
+    )
 class UserRegistrationView(generics.CreateAPIView):
     """Kullanıcı kaydı"""
     queryset = User.objects.all()
     permission_classes = (AllowAny,)
     serializer_class = UserRegistrationSerializer
 
+    def create(self, request, *args, **kwargs):
+        response = super().create(request, *args, **kwargs)
+        user = User.objects.get(email=response.data["email"])
+        send_verification_email(user, request)  # ✅ Kayıt olunca doğrulama maili gönder
+        
+        return Response(
+            {"detail": "Kayıt başarılı! Lütfen e-postanızı doğrulayın."},
+            status=status.HTTP_201_CREATED,
+        )
+
 class EmailVerificationView(views.APIView):
-    """Email doğrulama"""
+    """E-posta doğrulama"""
     permission_classes = (AllowAny,)
 
-    def get(self, request, token):
+    def get(self, request, uidb64, token):
         try:
-            # Email doğrulama işlemleri
-            return Response({'detail': 'Email başarıyla doğrulandı.'})
-        except Exception as e:
-            return Response({'detail': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+            uid = force_str(urlsafe_base64_decode(uidb64))
+            user = User.objects.get(pk=uid)
 
+            if default_token_generator.check_token(user, token):
+                user.is_verified = True
+                user.save()
+                return Response({"detail": "E-posta doğrulandı!"}, status=status.HTTP_200_OK)
+
+            return Response({"detail": "Geçersiz veya süresi dolmuş token!"}, status=status.HTTP_400_BAD_REQUEST)
+
+        except (TypeError, ValueError, OverflowError, User.DoesNotExist):
+            return Response({"detail": "Geçersiz bağlantı!"}, status=status.HTTP_400_BAD_REQUEST)
 class PasswordResetView(views.APIView):
     """Şifre sıfırlama"""
     permission_classes = (AllowAny,)

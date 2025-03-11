@@ -2,7 +2,21 @@ import os
 from datetime import timedelta
 from pathlib import Path
 
+
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# .env dosyasını yükle
+import environ
+env = environ.Env()
+environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
+# E-posta ayarlarını `.env` dosyasından al
+EMAIL_BACKEND = env("EMAIL_BACKEND")
+EMAIL_HOST = env("EMAIL_HOST")
+EMAIL_PORT = env.int("EMAIL_PORT")
+EMAIL_USE_TLS = env.bool("EMAIL_USE_TLS")
+EMAIL_HOST_USER = env("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
+DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL")
 
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-key')
 
@@ -28,6 +42,7 @@ INSTALLED_APPS = [
     'django_celery_beat',
     'drf_yasg',
     'channels',
+    "django.contrib.sites",
     
     # Local apps
     'apps.accounts',
@@ -47,6 +62,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_prometheus.middleware.PrometheusAfterMiddleware',
+    
+    #sign with google
+        "allauth.account.middleware.AccountMiddleware",
 ]
 
 ROOT_URLCONF = 'CineSocial.urls'
@@ -71,14 +89,15 @@ WSGI_APPLICATION = 'CineSocial.wsgi.application'
 ASGI_APPLICATION = 'CineSocial.asgi.application'
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DB_NAME', 'cinesocial'),
-        'USER': os.environ.get('DB_USER', 'cinesocial_user'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'your-strong-password'),
-        'HOST': os.environ.get('DB_HOST', 'db'),
-        'PORT': os.environ.get('DB_PORT', '5432'),
-    }
+    'default': env.db("DATABASE_URL")
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': os.environ.get('DB_NAME', 'cinesocial'),
+    #     'USER': os.environ.get('DB_USER', 'cinesocial_user'),
+    #     'PASSWORD': os.environ.get('DB_PASSWORD', 'your-strong-password'),
+    #     'HOST': os.environ.get('DB_HOST', 'db'),
+    #     'PORT': os.environ.get('DB_PORT', '5432'),
+    # }
 }
 
 # Channel layers
@@ -200,3 +219,48 @@ LOGGING = {
         },
     },
 } 
+#sign with google
+INSTALLED_APPS += [
+    "allauth",
+    "allauth.account",
+    "allauth.socialaccount",
+    "allauth.socialaccount.providers.google",
+]
+
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+]
+
+SITE_ID = 1
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+        },
+    }
+}
+
+SITE_ID = 1
+
+ACCOUNT_AUTHENTICATION_METHOD = "email"
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_EMAIL_VERIFICATION = "optional"
+
+
+
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
+
+
+
+ACCOUNT_LOGIN_METHODS = {"email"}
+
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = False

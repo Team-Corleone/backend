@@ -1,15 +1,19 @@
 from django.urls import path
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from . import views
-
+from .views import UserRegistrationView, EmailVerificationView
+from django.urls import path, include
 app_name = 'accounts'
 
 urlpatterns = [
+    path('accounts/', include('allauth.urls')), 
     # Kimlik doğrulama
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('register/', views.UserRegistrationView.as_view(), name='register'),
-    path('verify-email/<str:token>/', views.EmailVerificationView.as_view(), name='verify_email'),
+    # path('verify-email/<str:token>/', views.EmailVerificationView.as_view(), name='verify_email'),
+    path("verify-email/<uidb64>/<token>/", EmailVerificationView.as_view(), name="email-verify"),  # ✅ Doğru URL tanımı
+
     path('password/reset/', views.PasswordResetView.as_view(), name='password_reset'),
     path('password/reset/confirm/<str:token>/', views.PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
     

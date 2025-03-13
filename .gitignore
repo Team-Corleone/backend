@@ -2,14 +2,13 @@ logs/django.log
 logs/celery.log
 logs/celerybeat.log
 
-
+settings/__pycache__/
 .env
-
+__pycache__/
 .DS_Store
-
+*.pyc
 .venv
 
+CineSocial/__pycache__
+CineSocial/settings/__pycache__/
 
-
-
-.env

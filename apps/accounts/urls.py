@@ -7,10 +7,11 @@ app_name = 'accounts'
 
 urlpatterns = [
     #sing with google
-    path('accounts/', include('allauth.urls')),
     #test icin
-    path("home",views.home),
-    path("logout",views.logout_view),
+path("home", views.home, name="home"),  # ✅ No trailing slash
+ # ✅ Add trailing slash
+
+    path("logout",views.logout_view,name = "logout"),
     
     # Kimlik doğrulama
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),

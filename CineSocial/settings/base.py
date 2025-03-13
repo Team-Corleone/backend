@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'apps.games',
     'apps.social',
 ]
-SITE_ID = 2
+SITE_ID = 1
 #sign with google
 INSTALLED_APPS += [
     "allauth",
@@ -72,8 +72,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_prometheus.middleware.PrometheusAfterMiddleware',
-    
-        "allauth.account.middleware.AccountMiddleware",
+    #sign with google
+    "allauth.account.middleware.AccountMiddleware",
 ]
 
 ROOT_URLCONF = 'CineSocial.urls'
@@ -230,17 +230,29 @@ LOGGING = {
 } 
 
 
+
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
-        'SCOPE': [
-            'profile',
-            'email',
+        "SCOPE": [
+            "profile",
+            "email",
         ],
-        'AUTH_PARAMS': {
-            'access_type': 'online',
+        "AUTH_PARAMS": {
+            "access_type": "online",
         },
+        "APP": {
+            'client_id': env("GOOGLE_CLIENT_ID"),
+            "secret": env("GOOGLE_CLIENT_SECRET"),
+            "key": env("GOOGLE_KEY", default=""),
+        }
     }
 }
+
+
+ACCOUNT_ADAPTER = "allauth.account.adapter.DefaultAccountAdapter"
+ACCOUNT_LOGOUT_REDIRECT_URL = "/"
+SOCIALACCOUNT_ADAPTER = "allauth.socialaccount.adapter.DefaultSocialAccountAdapter"
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = "http"
 
 AUTHENTICATION_BACKENDS = [
     "django.contrib.auth.backends.ModelBackend",
@@ -248,6 +260,9 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 
-LOGIN_REDIRECT_URL = "/"
-LOGOUT_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/api/v1/accounts/home/"
+ACCOUNT_LOGOUT_REDIRECT_URL = "/api/v1/accounts/home/"
 
+LOGOUT_REDIRECT_URL = "/home/"
+LOGIN_URL = "/home/"
+LOGOUT_URL = "home"  # ✅ Correct

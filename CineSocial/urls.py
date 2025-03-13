@@ -12,6 +12,7 @@ from rest_framework_simplejwt.views import (
 
 # API URL desenleri
 api_patterns = [
+    
     path('auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('accounts/', include('apps.accounts.urls')),
@@ -37,6 +38,9 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
+    # url(r'^__debug__/', include(debug_toolbar.urls)), give thsis as path
+    path('__debug__/', include('debug_toolbar.urls')),
+            
     # Admin paneli
     path('admin/', admin.site.urls),
     

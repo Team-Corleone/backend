@@ -17,6 +17,26 @@ from .serializers import (
     UserBlockSerializer,
 )
 from .models import UserDevice, Achievement, UserFollowing, UserBlock
+#test google sing in
+from django.shortcuts import render,redirect
+from django.contrib.auth import logout
+
+
+def home(request):
+    return render(request, 'home.html')
+def logout_view(request):
+    logout(request)
+    return redirect('/')
+
+
+
+
+
+
+
+
+
+
 
 User = get_user_model()
 from django.urls import reverse

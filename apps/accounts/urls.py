@@ -6,7 +6,12 @@ from django.urls import path, include
 app_name = 'accounts'
 
 urlpatterns = [
-    path('accounts/', include('allauth.urls')), 
+    #sing with google
+    path('accounts/', include('allauth.urls')),
+    #test icin
+    path("home",views.home),
+    path("logout",views.logout_view),
+    
     # Kimlik doğrulama
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),

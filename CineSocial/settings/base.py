@@ -188,7 +188,7 @@ CORS_ALLOW_CREDENTIALS = True
 AUTH_USER_MODEL = 'accounts.User'
 
 # Frontend URL
-FRONTEND_URL = os.environ.get('FRONTEND_URL', 'http://localhost:3000')
+FRONTEND_URL = os.environ.get('FRONTEND_URL', 'http://localhost:5047')
 
 # Email settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

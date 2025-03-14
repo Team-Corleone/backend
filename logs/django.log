@@ -4033,3 +4033,890 @@ INFO 2025-03-13 22:22:27,980 autoreload 1888 9576 Watching for file changes with
 INFO 2025-03-13 22:22:34,204 runserver 1888 25236 [mHTTP GET /api/v1/accounts/home 200 [0.52, 127.0.0.1:52887][0m
 INFO 2025-03-13 22:22:37,444 runserver 1888 25236 [mHTTP GET /api/v1/accounts/google/login/ 200 [1.08, 127.0.0.1:52887][0m
 INFO 2025-03-13 22:23:05,197 runserver 1888 25236 [mHTTP GET /api/v1/accounts/3rdparty/ 200 [1.14, 127.0.0.1:52887][0m
+INFO 2025-03-14 22:14:41,617 autoreload 10896 4884 Watching for file changes with StatReloader
+WARNING 2025-03-14 22:15:02,902 log 10896 23008 Not Found: /
+WARNING 2025-03-14 22:15:02,903 runserver 10896 12532 [33mHTTP GET / 404 [0.75, 127.0.0.1:52701][0m
+INFO 2025-03-14 22:15:03,025 runserver 10896 12532 [36mHTTP GET /static/debug_toolbar/css/toolbar.css 304 [0.00, 127.0.0.1:52701][0m
+INFO 2025-03-14 22:15:03,045 runserver 10896 12532 [36mHTTP GET /static/debug_toolbar/js/toolbar.js 304 [0.01, 127.0.0.1:52701][0m
+INFO 2025-03-14 22:15:03,047 runserver 10896 12532 [36mHTTP GET /static/debug_toolbar/css/print.css 304 [0.01, 127.0.0.1:52700][0m
+INFO 2025-03-14 22:15:03,077 runserver 10896 12532 [36mHTTP GET /static/debug_toolbar/js/utils.js 304 [0.01, 127.0.0.1:52700][0m
+WARNING 2025-03-14 22:15:03,664 log 10896 23008 Not Found: /favicon.ico
+WARNING 2025-03-14 22:15:03,665 runserver 10896 12532 [33mHTTP GET /favicon.ico 404 [0.51, 127.0.0.1:52700][0m
+INFO 2025-03-14 22:15:06,919 runserver 10896 12532 [32mHTTP GET /admin/ 302 [2.07, 127.0.0.1:52700][0m
+INFO 2025-03-14 22:15:07,830 runserver 10896 12532 [mHTTP GET /admin/login/?next=/admin/ 200 [0.91, 127.0.0.1:52700][0m
+INFO 2025-03-14 22:15:07,893 runserver 10896 12532 [mHTTP GET /static/admin/css/base.css 200 [0.02, 127.0.0.1:52700][0m
+INFO 2025-03-14 22:15:07,896 runserver 10896 12532 [mHTTP GET /static/admin/css/dark_mode.css 200 [0.02, 127.0.0.1:52701][0m
+INFO 2025-03-14 22:15:07,900 runserver 10896 12532 [mHTTP GET /static/admin/css/login.css 200 [0.02, 127.0.0.1:52707][0m
+INFO 2025-03-14 22:15:07,903 runserver 10896 12532 [mHTTP GET /static/admin/css/nav_sidebar.css 200 [0.03, 127.0.0.1:52706][0m
+INFO 2025-03-14 22:15:07,907 runserver 10896 12532 [mHTTP GET /static/admin/css/responsive.css 200 [0.02, 127.0.0.1:52708][0m
+INFO 2025-03-14 22:15:07,910 runserver 10896 12532 [mHTTP GET /static/admin/js/theme.js 200 [0.02, 127.0.0.1:52709][0m
+INFO 2025-03-14 22:15:07,984 runserver 10896 12532 [mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.00, 127.0.0.1:52708][0m
+INFO 2025-03-14 22:15:12,719 runserver 10896 12532 [32mHTTP POST /admin/login/?next=/admin/ 302 [3.10, 127.0.0.1:52708][0m
+INFO 2025-03-14 22:15:13,492 runserver 10896 12532 [mHTTP GET /admin/ 200 [0.77, 127.0.0.1:52708][0m
+INFO 2025-03-14 22:15:13,585 runserver 10896 12532 [mHTTP GET /static/admin/css/dashboard.css 200 [0.00, 127.0.0.1:52708][0m
+INFO 2025-03-14 22:15:13,635 runserver 10896 12532 [mHTTP GET /static/admin/img/icon-addlink.svg 200 [0.02, 127.0.0.1:52700][0m
+INFO 2025-03-14 22:15:13,636 runserver 10896 12532 [mHTTP GET /static/admin/img/icon-changelink.svg 200 [0.01, 127.0.0.1:52708][0m
+INFO 2025-03-14 22:15:13,637 runserver 10896 12532 [mHTTP GET /static/admin/img/icon-deletelink.svg 200 [0.01, 127.0.0.1:52709][0m
+INFO 2025-03-14 22:16:53,560 runserver 10896 12532 [mHTTP GET /admin/sites/site/ 200 [1.01, 127.0.0.1:52731][0m
+INFO 2025-03-14 22:16:53,644 runserver 10896 12532 [mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 200 [0.01, 127.0.0.1:52736][0m
+INFO 2025-03-14 22:16:53,646 runserver 10896 12532 [mHTTP GET /static/admin/js/core.js 200 [0.01, 127.0.0.1:52735][0m
+INFO 2025-03-14 22:16:53,647 runserver 10896 12532 [mHTTP GET /static/admin/js/jquery.init.js 200 [0.01, 127.0.0.1:52734][0m
+INFO 2025-03-14 22:16:53,647 runserver 10896 12532 [mHTTP GET /static/admin/css/changelists.css 200 [0.02, 127.0.0.1:52731][0m
+INFO 2025-03-14 22:16:53,648 runserver 10896 12532 [mHTTP GET /static/admin/js/vendor/jquery/jquery.js 200 [0.02, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:16:53,649 runserver 10896 12532 [mHTTP GET /static/admin/js/actions.js 200 [0.02, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:16:53,689 runserver 10896 12532 [mHTTP GET /static/admin/js/prepopulate.js 200 [0.01, 127.0.0.1:52736][0m
+INFO 2025-03-14 22:16:53,690 runserver 10896 12532 [mHTTP GET /static/admin/js/urlify.js 200 [0.02, 127.0.0.1:52734][0m
+INFO 2025-03-14 22:16:53,692 runserver 10896 12532 [mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 200 [0.01, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:16:53,738 runserver 10896 12532 [mHTTP GET /static/admin/img/search.svg 200 [0.00, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:16:53,913 runserver 10896 12532 [mHTTP GET /static/admin/js/filters.js 200 [0.00, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:16:54,347 runserver 10896 12532 [mHTTP GET /admin/jsi18n/ 200 [0.67, 127.0.0.1:52735][0m
+INFO 2025-03-14 22:16:54,379 runserver 10896 12532 [mHTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:52735][0m
+INFO 2025-03-14 22:16:54,380 runserver 10896 12532 [mHTTP GET /static/admin/img/sorting-icons.svg 200 [0.00, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:16:56,612 runserver 10896 12532 [mHTTP GET /admin/ 200 [0.71, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:16:59,005 runserver 10896 12532 [mHTTP GET /admin/socialaccount/socialapp/ 200 [0.88, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:16:59,884 runserver 10896 12532 [mHTTP GET /admin/jsi18n/ 200 [0.81, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:17:17,462 runserver 10896 12532 [32mHTTP GET /swagger 301 [0.56, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:17:18,039 runserver 10896 12532 [mHTTP GET /swagger/ 200 [0.56, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:17:18,160 runserver 10896 12532 [mHTTP GET /static/drf-yasg/style.css 200 [0.01, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:17:18,166 runserver 10896 12532 [mHTTP GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css 200 [0.02, 127.0.0.1:52735][0m
+INFO 2025-03-14 22:17:18,167 runserver 10896 12532 [mHTTP GET /static/drf-yasg/insQ.min.js 200 [0.02, 127.0.0.1:52736][0m
+INFO 2025-03-14 22:17:18,168 runserver 10896 12532 [mHTTP GET /static/drf-yasg/immutable.min.js 200 [0.01, 127.0.0.1:52731][0m
+INFO 2025-03-14 22:17:18,169 runserver 10896 12532 [mHTTP GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js 200 [0.02, 127.0.0.1:52734][0m
+INFO 2025-03-14 22:17:18,173 runserver 10896 12532 [mHTTP GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js 200 [0.02, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:17:18,178 runserver 10896 12532 [mHTTP GET /static/drf-yasg/swagger-ui-init.js 200 [0.01, 127.0.0.1:52732][0m
+INFO 2025-03-14 22:17:19,256 runserver 10896 12532 [mHTTP GET /swagger/?format=openapi 200 [0.75, 127.0.0.1:52737][0m
+WARNING 2025-03-14 22:17:46,706 log 10896 21676 Unauthorized: /api/v1/auth/token/
+WARNING 2025-03-14 22:17:46,706 runserver 10896 12532 [31;1mHTTP POST /api/v1/auth/token/ 401 [1.17, 127.0.0.1:52737][0m
+WARNING 2025-03-14 22:18:34,320 log 10896 5372 Unauthorized: /api/v1/auth/token/
+WARNING 2025-03-14 22:18:34,321 runserver 10896 12532 [31;1mHTTP POST /api/v1/auth/token/ 401 [3.16, 127.0.0.1:52737][0m
+WARNING 2025-03-14 22:18:37,951 log 10896 23008 Unauthorized: /api/v1/auth/token/
+WARNING 2025-03-14 22:18:37,952 runserver 10896 12532 [31;1mHTTP POST /api/v1/auth/token/ 401 [1.10, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:18:51,113 runserver 10896 12532 [mHTTP POST /api/v1/auth/token/ 200 [1.28, 127.0.0.1:52737][0m
+WARNING 2025-03-14 22:19:21,867 log 10896 18064 Not Found: /
+WARNING 2025-03-14 22:19:21,868 runserver 10896 12532 [33mHTTP GET / 404 [0.53, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:19:29,885 runserver 10896 12532 [32mHTTP GET /redoc 301 [1.52, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:19:30,392 runserver 10896 12532 [mHTTP GET /redoc/ 200 [0.50, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:19:30,435 runserver 10896 12532 [mHTTP GET /static/drf-yasg/redoc-init.js 200 [0.01, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:19:30,437 runserver 10896 12532 [mHTTP GET /static/drf-yasg/redoc/redoc.min.js 200 [0.01, 127.0.0.1:52776][0m
+INFO 2025-03-14 22:19:30,603 runserver 10896 12532 [mHTTP GET /static/drf-yasg/redoc/redoc-logo.png 200 [0.01, 127.0.0.1:52737][0m
+INFO 2025-03-14 22:19:31,238 runserver 10896 12532 [mHTTP GET /redoc/?format=openapi 200 [0.67, 127.0.0.1:52776][0m
+INFO 2025-03-14 22:20:03,010 runserver 10896 12532 [mHTTP GET /admin/ 200 [0.84, 127.0.0.1:52776][0m
+ERROR 2025-03-14 22:20:10,965 log 10896 8800 Internal Server Error: /admin/movies/usermovierating/
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "movies_usermovierating" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "movies_usermovierating"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\code\backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "movies_usermovierating" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "movies_usermovierating"
+                                          ^
+
+ERROR 2025-03-14 22:20:11,075 runserver 10896 12532 [35;1mHTTP GET /admin/movies/usermovierating/ 500 [1.28, 127.0.0.1:52776][0m
+INFO 2025-03-14 22:20:18,828 runserver 10896 12532 [mHTTP GET /admin/ 200 [0.85, 127.0.0.1:52776][0m
+ERROR 2025-03-14 22:20:21,020 log 10896 23008 Internal Server Error: /admin/movies/moviecrew/
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "movies_moviecrew" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "movies_moviecrew"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\code\backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "movies_moviecrew" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "movies_moviecrew"
+                                          ^
+
+ERROR 2025-03-14 22:20:21,110 runserver 10896 12532 [35;1mHTTP GET /admin/movies/moviecrew/ 500 [1.26, 127.0.0.1:52776][0m
+INFO 2025-03-14 22:21:37,653 autoreload 13308 2848 Watching for file changes with StatReloader
+INFO 2025-03-14 22:21:40,175 runserver 13308 21300 [mHTTP GET /admin/movies/moviecrew/ 200 [1.44, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:40,773 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.57, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:43,424 runserver 13308 21300 [mHTTP GET /admin/movies/usermovierating/ 200 [0.85, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:43,988 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:46,801 runserver 13308 21300 [mHTTP GET /admin/movies/ 200 [0.58, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:49,032 runserver 13308 21300 [mHTTP GET /admin/movies/usermovierating/ 200 [0.80, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:49,640 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.57, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:54,087 runserver 13308 21300 [mHTTP GET /admin/movies/movie/add/ 200 [0.98, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:54,128 runserver 13308 21300 [mHTTP GET /static/admin/css/forms.css 200 [0.00, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:54,168 runserver 13308 21300 [mHTTP GET /static/admin/js/calendar.js 200 [0.01, 127.0.0.1:52845][0m
+INFO 2025-03-14 22:21:54,172 runserver 13308 21300 [mHTTP GET /static/admin/js/SelectBox.js 200 [0.01, 127.0.0.1:52858][0m
+INFO 2025-03-14 22:21:54,173 runserver 13308 21300 [mHTTP GET /static/admin/js/admin/DateTimeShortcuts.js 200 [0.01, 127.0.0.1:52844][0m
+INFO 2025-03-14 22:21:54,174 runserver 13308 21300 [mHTTP GET /static/admin/js/SelectFilter2.js 200 [0.01, 127.0.0.1:52859][0m
+INFO 2025-03-14 22:21:54,199 runserver 13308 21300 [mHTTP GET /static/admin/js/prepopulate_init.js 200 [0.00, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:54,207 runserver 13308 21300 [mHTTP GET /static/admin/css/widgets.css 200 [0.00, 127.0.0.1:52859][0m
+INFO 2025-03-14 22:21:54,214 runserver 13308 21300 [mHTTP GET /static/admin/js/change_form.js 200 [0.00, 127.0.0.1:52859][0m
+INFO 2025-03-14 22:21:55,690 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [1.53, 127.0.0.1:52860][0m
+INFO 2025-03-14 22:21:55,781 runserver 13308 21300 [mHTTP GET /static/admin/img/icon-unknown-alt.svg 200 [0.01, 127.0.0.1:52844][0m
+INFO 2025-03-14 22:21:55,788 runserver 13308 21300 [mHTTP GET /static/admin/img/icon-calendar.svg 200 [0.02, 127.0.0.1:52860][0m
+INFO 2025-03-14 22:21:55,789 runserver 13308 21300 [mHTTP GET /static/admin/img/selector-icons.svg 200 [0.02, 127.0.0.1:52846][0m
+INFO 2025-03-14 22:21:55,793 runserver 13308 21300 [mHTTP GET /static/admin/img/icon-unknown.svg 200 [0.02, 127.0.0.1:52859][0m
+INFO 2025-03-14 22:27:37,463 runserver 13308 21300 [mHTTP GET /admin/movies/moviecrew/ 200 [0.91, 127.0.0.1:52997][0m
+INFO 2025-03-14 22:27:39,045 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [1.55, 127.0.0.1:52997][0m
+INFO 2025-03-14 22:27:43,051 runserver 13308 21300 [mHTTP GET /admin/movies/genre/add/ 200 [1.81, 127.0.0.1:52997][0m
+INFO 2025-03-14 22:27:43,642 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.53, 127.0.0.1:52997][0m
+INFO 2025-03-14 22:29:40,416 runserver 13308 21300 [mHTTP GET /admin/movies/moviecast/ 200 [1.03, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:29:41,047 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:29:42,554 runserver 13308 21300 [mHTTP GET /admin/movies/moviecrew/ 200 [0.86, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:29:43,134 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.55, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:29:58,064 runserver 13308 21300 [mHTTP GET /admin/movies/usermoviewatchlist/ 200 [0.88, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:29:58,634 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.53, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:30:01,165 runserver 13308 21300 [mHTTP GET /admin/movies/usermoviewatchlist/add/ 200 [1.24, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:30:01,236 runserver 13308 21300 [mHTTP GET /static/admin/img/icon-viewlink.svg 200 [0.01, 127.0.0.1:53034][0m
+INFO 2025-03-14 22:30:02,786 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [1.58, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:30:10,869 runserver 13308 21300 [mHTTP GET /admin/movies/movie/add/?_to_field=id&_popup=1 200 [0.78, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:30:11,520 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.63, 127.0.0.1:53033][0m
+INFO 2025-03-14 22:32:14,896 runserver 13308 21300 [mHTTP GET /admin/movies/usermovierating/ 200 [0.97, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:16,482 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [1.50, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:18,629 runserver 13308 21300 [mHTTP GET /admin/movies/usermovierating/? 200 [0.84, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:19,217 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.55, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:21,215 runserver 13308 21300 [mHTTP GET /admin/movies/usermovierating/add/ 200 [1.53, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:21,862 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.62, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:40,136 runserver 13308 21300 [mHTTP GET /admin/accounts/user/add/?_to_field=id&_popup=1 200 [0.96, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:40,714 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.56, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:44,146 runserver 13308 21300 [mHTTP GET /admin/movies/movie/add/?_to_field=id&_popup=1 200 [0.78, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:32:44,725 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.56, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:33:46,227 runserver 13308 21300 [mHTTP POST /admin/movies/movie/add/?_to_field=id&_popup=1 200 [1.73, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:33:46,861 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.60, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:33:50,453 runserver 13308 21300 [mHTTP GET /admin/movies/genre/add/?_to_field=id&_popup=1 200 [0.59, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:33:51,040 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.57, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:33:56,962 runserver 13308 21300 [mHTTP POST /admin/movies/genre/add/?_to_field=id&_popup=1 200 [1.08, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:33:56,989 runserver 13308 21300 [mHTTP GET /static/admin/js/popup_response.js 200 [0.00, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:34:02,249 runserver 13308 21300 [mHTTP POST /admin/movies/movie/add/?_to_field=id&_popup=1 200 [1.15, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:34:02,842 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [0.57, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:34:18,545 runserver 13308 21300 [mHTTP POST /admin/movies/movie/add/?_to_field=id&_popup=1 200 [1.04, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:34:27,199 runserver 13308 21300 [mHTTP POST /admin/movies/usermovierating/add/ 200 [2.07, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:34:28,811 runserver 13308 21300 [mHTTP GET /admin/jsi18n/ 200 [1.57, 127.0.0.1:53105][0m
+ERROR 2025-03-14 22:34:34,132 log 13308 17320 Internal Server Error: /admin/movies/usermovierating/add/
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "social_notification" does not exist
+LINE 1: INSERT INTO "social_notification" ("user_id", "type", "title...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1799, in _changeform_view
+    self.save_related(request, form, formsets, not add)
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1253, in save_related
+    form.save_m2m()
+  File "D:\code\backend\venv\Lib\site-packages\django\forms\models.py", line 524, in _save_m2m
+    f.save_form_data(self.instance, cleaned_data[f.name])
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related.py", line 1956, in save_form_data
+    getattr(instance, self.attname).set(data)
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1236, in set
+    self.add(*new_objs, through_defaults=through_defaults)
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1137, in add
+    self._add_items(
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1447, in _add_items
+    signals.m2m_changed.send(
+  File "D:\code\backend\venv\Lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+           ^
+  File "D:\code\backend\venv\Lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\apps\movies\signals.py", line 26, in create_rating_like_notification
+    Notification.objects.create(
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\code\backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "social_notification" does not exist
+LINE 1: INSERT INTO "social_notification" ("user_id", "type", "title...
+                    ^
+
+ERROR 2025-03-14 22:34:34,387 runserver 13308 21300 [35;1mHTTP POST /admin/movies/usermovierating/add/ 500 [2.06, 127.0.0.1:53105][0m
+INFO 2025-03-14 22:36:11,327 autoreload 13308 2848 D:\code\backend\apps\movies\models.py changed, reloading.
+INFO 2025-03-14 22:36:14,089 autoreload 11128 10816 Watching for file changes with StatReloader
+INFO 2025-03-14 22:36:25,966 runserver 11128 13252 [mHTTP GET /admin/movies/usermovierating/add/ 200 [2.00, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:36:42,296 runserver 11128 13252 [mHTTP GET /admin/movies/usermovielistitem/ 200 [0.89, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:36:43,870 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [1.51, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:36:46,174 runserver 11128 13252 [mHTTP GET /admin/movies/usermovielistitem/add/ 200 [1.09, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:36:46,773 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.55, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:00,560 runserver 11128 13252 [mHTTP GET /admin/movies/usermovielist/add/?_to_field=id&_popup=1 200 [1.00, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:01,207 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.61, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:07,385 runserver 11128 13252 [mHTTP POST /admin/movies/usermovielist/add/?_to_field=id&_popup=1 200 [1.04, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:14,265 runserver 11128 13252 [32mHTTP POST /admin/movies/usermovielistitem/add/ 302 [1.27, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:16,811 runserver 11128 13252 [mHTTP GET /admin/movies/usermovielistitem/1/change/ 200 [2.54, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:17,542 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.69, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:17,562 runserver 11128 13252 [mHTTP GET /static/admin/img/icon-yes.svg 200 [0.00, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:39,391 runserver 11128 13252 [mHTTP GET /admin/movies/usermovierating/ 200 [1.98, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:40,944 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [1.52, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:42,349 runserver 11128 13252 [mHTTP GET /admin/accounts/achievement/ 200 [0.84, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:42,898 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.51, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:46,460 runserver 11128 13252 [mHTTP GET /admin/accounts/user/ 200 [0.88, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:46,527 runserver 11128 13252 [mHTTP GET /static/admin/img/icon-no.svg 200 [0.00, 127.0.0.1:53221][0m
+INFO 2025-03-14 22:37:47,061 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.57, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:54,015 runserver 11128 13252 [mHTTP GET /admin/accounts/user/?o=5.1 200 [0.96, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:37:54,597 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:38:00,456 runserver 11128 13252 [mHTTP GET /admin/movies/usermovierating/ 200 [0.90, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:38:01,073 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.59, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:38:03,477 runserver 11128 13252 [mHTTP GET /admin/movies/usermovierating/add/ 200 [1.20, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:38:05,097 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [1.58, 127.0.0.1:53190][0m
+ERROR 2025-03-14 22:38:14,603 log 11128 11600 Internal Server Error: /admin/movies/usermovierating/add/
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "social_notification" does not exist
+LINE 1: INSERT INTO "social_notification" ("user_id", "type", "title...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1799, in _changeform_view
+    self.save_related(request, form, formsets, not add)
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1253, in save_related
+    form.save_m2m()
+  File "D:\code\backend\venv\Lib\site-packages\django\forms\models.py", line 524, in _save_m2m
+    f.save_form_data(self.instance, cleaned_data[f.name])
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related.py", line 1956, in save_form_data
+    getattr(instance, self.attname).set(data)
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1236, in set
+    self.add(*new_objs, through_defaults=through_defaults)
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1137, in add
+    self._add_items(
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1447, in _add_items
+    signals.m2m_changed.send(
+  File "D:\code\backend\venv\Lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+           ^
+  File "D:\code\backend\venv\Lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\apps\movies\signals.py", line 26, in create_rating_like_notification
+    Notification.objects.create(
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\code\backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "social_notification" does not exist
+LINE 1: INSERT INTO "social_notification" ("user_id", "type", "title...
+                    ^
+
+ERROR 2025-03-14 22:38:14,878 runserver 11128 13252 [35;1mHTTP POST /admin/movies/usermovierating/add/ 500 [3.13, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:38:18,293 runserver 11128 13252 [mHTTP GET /admin/movies/usermovierating/add/ 200 [1.33, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:38:57,429 runserver 11128 13252 [mHTTP GET /admin/accounts/user/ 200 [1.86, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:38:58,104 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.63, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:04,569 runserver 11128 13252 [mHTTP GET /admin/accounts/user/add/ 200 [0.92, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:05,204 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.59, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:11,491 runserver 11128 13252 [mHTTP GET /admin/accounts/user/ 200 [0.85, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:12,095 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.58, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:15,150 runserver 11128 13252 [mHTTP GET /admin/accounts/userdevice/ 200 [1.84, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:15,721 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:18,368 runserver 11128 13252 [mHTTP GET /admin/accounts/userdevice/add/ 200 [0.98, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:18,995 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.60, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:25,093 runserver 11128 13252 [mHTTP GET /admin/accounts/achievement/ 200 [0.81, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:25,785 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.63, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:28,538 runserver 11128 13252 [mHTTP GET /admin/accounts/userdevice/ 200 [0.90, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:30,168 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [1.60, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:32,066 runserver 11128 13252 [mHTTP GET /admin/accounts/achievement/ 200 [0.83, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:32,742 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.63, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:38,898 runserver 11128 13252 [mHTTP GET /admin/accounts/userachievement/ 200 [0.92, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:39,478 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.52, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:41,284 runserver 11128 13252 [mHTTP GET /admin/accounts/userachievement/add/ 200 [1.20, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:41,853 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.53, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:48,013 runserver 11128 13252 [mHTTP GET /admin/accounts/achievement/add/?_to_field=id&_popup=1 200 [0.74, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:39:48,581 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:40:10,503 runserver 11128 13252 [mHTTP GET /admin/auth/group/ 200 [1.82, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:40:11,091 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.55, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:40:13,363 runserver 11128 13252 [mHTTP GET /admin/auth/group/add/ 200 [1.14, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:40:14,958 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [1.56, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:40:57,510 runserver 11128 13252 [32mHTTP POST /admin/auth/group/add/ 302 [2.33, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:40:59,280 runserver 11128 13252 [mHTTP GET /admin/auth/group/ 200 [1.77, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:40:59,853 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.52, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:41:03,533 runserver 11128 13252 [mHTTP GET /admin/auth/group/1/change/ 200 [1.12, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:41:04,184 runserver 11128 13252 [mHTTP GET /admin/jsi18n/ 200 [0.61, 127.0.0.1:53190][0m
+ERROR 2025-03-14 22:41:23,117 log 11128 11600 Internal Server Error: /admin/social/notification/
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "social_notification" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "social_notification"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\code\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "D:\code\backend\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\code\backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\code\backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "social_notification" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "social_notification"
+                                          ^
+
+ERROR 2025-03-14 22:41:23,204 runserver 11128 13252 [35;1mHTTP GET /admin/social/notification/ 500 [0.84, 127.0.0.1:53190][0m
+INFO 2025-03-14 22:42:10,634 autoreload 4160 20140 Watching for file changes with StatReloader
+INFO 2025-03-14 22:42:20,980 runserver 4160 9880 [mHTTP GET /admin/auth/group/1/change/ 200 [2.10, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:21,676 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.61, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:34,092 runserver 4160 9880 [mHTTP GET /admin/social/notification/ 200 [0.98, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:34,691 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:37,369 runserver 4160 9880 [mHTTP GET /admin/social/notification/add/ 200 [1.07, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:37,932 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.53, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:38,012 runserver 4160 9880 [mHTTP GET /static/admin/img/icon-clock.svg 200 [0.00, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:49,499 runserver 4160 9880 [mHTTP GET /admin/social/community/ 200 [0.91, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:42:50,107 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53361][0m
+INFO 2025-03-14 22:44:14,699 runserver 4160 9880 [mHTTP GET /admin/social/community/add/ 200 [1.25, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:44:15,285 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:45:13,112 runserver 4160 9880 [mHTTP GET /admin/movies/movie/add/?_to_field=id&_popup=1 200 [1.12, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:45:14,744 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [1.60, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:45:41,188 runserver 4160 9880 [mHTTP GET /admin/social/communitymember/ 200 [0.86, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:45:41,760 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:45:43,921 runserver 4160 9880 [mHTTP GET /admin/social/communitymember/add/ 200 [1.20, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:45:44,534 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.58, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:02,051 runserver 4160 9880 [mHTTP GET /admin/social/communitybadge/ 200 [1.95, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:02,681 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.59, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:05,305 runserver 4160 9880 [mHTTP GET /admin/social/communitybadge/add/ 200 [0.93, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:05,959 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.61, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:26,696 runserver 4160 9880 [mHTTP GET /admin/social/communitypost/ 200 [0.94, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:27,264 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.53, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:30,048 runserver 4160 9880 [mHTTP GET /admin/social/communitypost/add/ 200 [1.66, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:30,672 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.59, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:57,271 runserver 4160 9880 [mHTTP GET /admin/movies/movie/1/change/?_to_field=id 200 [2.15, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:46:57,850 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.55, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:06,452 runserver 4160 9880 [mHTTP GET /admin/sites/site/ 200 [0.75, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:07,025 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.54, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:14,430 runserver 4160 9880 [mHTTP GET /admin/socialaccount/socialtoken/ 200 [0.99, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:15,028 runserver 4160 9880 [mHTTP GET /admin/jsi18n/ 200 [0.56, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:25,132 runserver 4160 9880 [mHTTP GET /api/v1/accounts/home 200 [0.49, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:27,862 runserver 4160 9880 [mHTTP GET /api/v1/accounts/home 200 [0.49, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:45,993 runserver 4160 9880 [mHTTP GET /api/v1/accounts/google/login/ 200 [0.80, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:49,562 runserver 4160 9880 [mHTTP GET /api/v1/accounts/google/login/ 200 [0.62, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:47:52,419 runserver 4160 9880 [32mHTTP POST /api/v1/accounts/google/login/ 302 [0.74, 127.0.0.1:53397][0m
+INFO 2025-03-14 22:49:06,231 runserver 4160 9880 [32mHTTP POST /api/v1/accounts/google/login/ 302 [0.73, 127.0.0.1:53529][0m
+INFO 2025-03-14 22:49:15,177 runserver 4160 9880 [32mHTTP GET /api/v1/accounts/google/login/callback/?state=VJeSiVVxpo7TzVCP&code=4%2F0AQSTgQH6fVOaYNZtufBoBPj1D3gHrLIVQezd3_WI8SxD9pH1JuDdynAKza4DKvDj8RKyGQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=2&prompt=consent 302 [3.36, 127.0.0.1:53529][0m
+WARNING 2025-03-14 22:49:15,664 log 4160 15752 Not Found: /accounts/profile/
+WARNING 2025-03-14 22:49:15,665 runserver 4160 9880 [33mHTTP GET /accounts/profile/ 404 [0.48, 127.0.0.1:53529][0m
+WARNING 2025-03-14 22:49:29,867 log 4160 15752 Unauthorized: /api/v1/accounts/profile/
+WARNING 2025-03-14 22:49:29,868 runserver 4160 9880 [31;1mHTTP GET /api/v1/accounts/profile/ 401 [0.61, 127.0.0.1:53529][0m
+INFO 2025-03-14 22:49:29,909 runserver 4160 9880 [mHTTP GET /static/rest_framework/css/bootstrap.min.css 200 [0.00, 127.0.0.1:53529][0m
+INFO 2025-03-14 22:49:29,953 runserver 4160 9880 [mHTTP GET /static/rest_framework/css/bootstrap-tweaks.css 200 [0.01, 127.0.0.1:53530][0m
+INFO 2025-03-14 22:49:29,955 runserver 4160 9880 [mHTTP GET /static/rest_framework/css/default.css 200 [0.01, 127.0.0.1:53557][0m
+INFO 2025-03-14 22:49:29,955 runserver 4160 9880 [mHTTP GET /static/rest_framework/css/prettify.css 200 [0.01, 127.0.0.1:53556][0m
+INFO 2025-03-14 22:49:29,956 runserver 4160 9880 [mHTTP GET /static/rest_framework/js/ajax-form.js 200 [0.01, 127.0.0.1:53559][0m
+INFO 2025-03-14 22:49:29,957 runserver 4160 9880 [mHTTP GET /static/rest_framework/js/jquery-3.5.1.min.js 200 [0.02, 127.0.0.1:53558][0m
+INFO 2025-03-14 22:49:29,985 runserver 4160 9880 [mHTTP GET /static/rest_framework/js/csrf.js 200 [0.01, 127.0.0.1:53529][0m
+INFO 2025-03-14 22:49:29,990 runserver 4160 9880 [mHTTP GET /static/rest_framework/js/default.js 200 [0.01, 127.0.0.1:53559][0m
+INFO 2025-03-14 22:49:29,992 runserver 4160 9880 [mHTTP GET /static/rest_framework/js/bootstrap.min.js 200 [0.02, 127.0.0.1:53530][0m
+INFO 2025-03-14 22:49:29,993 runserver 4160 9880 [mHTTP GET /static/rest_framework/js/prettify-min.js 200 [0.01, 127.0.0.1:53556][0m
+INFO 2025-03-14 22:49:30,033 runserver 4160 9880 [mHTTP GET /static/rest_framework/img/grid.png 200 [0.00, 127.0.0.1:53558][0m
+INFO 2025-03-14 22:50:14,191 autoreload 4160 20140 D:\code\backend\CineSocial\urls.py changed, reloading.
+INFO 2025-03-14 22:50:45,170 autoreload 5216 18620 Watching for file changes with StatReloader
+WARNING 2025-03-14 22:51:00,407 log 5216 20052 Not Found: /api/v1/home
+WARNING 2025-03-14 22:51:00,407 runserver 5216 23464 [33mHTTP GET /api/v1/home 404 [0.62, 127.0.0.1:53647][0m
+WARNING 2025-03-14 22:51:06,388 log 5216 20052 Not Found: /api/v1/accounts/home/
+WARNING 2025-03-14 22:51:06,389 runserver 5216 23464 [33mHTTP GET /api/v1/accounts/home/ 404 [0.55, 127.0.0.1:53647][0m
+INFO 2025-03-14 22:53:43,457 autoreload 23672 15732 Watching for file changes with StatReloader
+INFO 2025-03-14 22:54:38,834 runserver 23672 3204 [mHTTP GET /api/v1/accounts/home 200 [2.71, 127.0.0.1:53796][0m
+INFO 2025-03-14 22:55:09,022 runserver 23672 3204 [mHTTP GET /api/v1/accounts/google/login/ 200 [1.31, 127.0.0.1:53796][0m
+INFO 2025-03-14 22:55:32,820 runserver 23672 3204 [32mHTTP GET /api/v1/accounts/password/change/ 302 [0.73, 127.0.0.1:53796][0m
+INFO 2025-03-14 22:55:33,473 runserver 23672 3204 [mHTTP GET /api/v1/accounts/password/set/ 200 [0.65, 127.0.0.1:53796][0m
+INFO 2025-03-14 22:55:47,070 runserver 23672 3204 [mHTTP POST /api/v1/accounts/password/set/ 200 [4.90, 127.0.0.1:53796][0m
+INFO 2025-03-14 22:56:08,257 autoreload 23672 15732 D:\code\backend\apps\accounts\urls.py changed, reloading.
+INFO 2025-03-14 22:56:11,176 autoreload 20608 18948 Watching for file changes with StatReloader
+INFO 2025-03-14 22:56:57,323 runserver 20608 12328 [32mHTTP POST /api/v1/accounts/password/set/ 302 [2.29, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:56:57,919 runserver 20608 12328 [mHTTP GET /api/v1/accounts/password/change/ 200 [0.59, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:57:44,865 log 20608 17244 Not Found: /api/v1/accountshome
+WARNING 2025-03-14 22:57:44,866 runserver 20608 12328 [33mHTTP GET /api/v1/accountshome 404 [0.55, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:57:49,149 runserver 20608 12328 [mHTTP GET /api/v1/accounts/home 200 [0.49, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:57:54,571 runserver 20608 12328 [mHTTP GET /api/v1/accounts/google/login/ 200 [0.75, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:58:09,059 runserver 20608 12328 [mHTTP GET /api/v1/accounts/email/ 200 [1.16, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:58:30,775 runserver 20608 12328 [mHTTP GET /api/v1/accounts/logout/ 200 [0.63, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:58:33,500 runserver 20608 12328 [32mHTTP POST /api/v1/accounts/logout/ 302 [0.69, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:58:33,563 log 20608 17244 Not Found: /api/v1/accounts/home/
+WARNING 2025-03-14 22:58:33,564 runserver 20608 12328 [33mHTTP GET /api/v1/accounts/home/ 404 [0.06, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:58:36,343 log 20608 17244 Not Found: /api/v1/accounts/home/
+WARNING 2025-03-14 22:58:36,344 runserver 20608 12328 [33mHTTP GET /api/v1/accounts/home/ 404 [0.05, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:58:40,579 runserver 20608 12328 [mHTTP GET /api/v1/accounts/home 200 [0.04, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:58:48,264 runserver 20608 12328 [mHTTP GET /api/v1/accounts/google/login/ 200 [0.57, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:58:50,421 runserver 20608 12328 [mHTTP GET /api/v1/accounts/login/ 200 [0.70, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:58:56,074 runserver 20608 12328 [32mHTTP POST /api/v1/accounts/login/ 302 [2.46, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:58:56,624 log 20608 17244 Not Found: /accounts/profile/
+WARNING 2025-03-14 22:58:56,625 runserver 20608 12328 [33mHTTP GET /accounts/profile/ 404 [0.54, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:59:02,232 runserver 20608 12328 [32mHTTP GET /api/v1/accounts/login/ 302 [0.52, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:59:19,028 log 20608 17244 Unauthorized: /api/v1/accounts/profile/
+WARNING 2025-03-14 22:59:19,029 runserver 20608 12328 [31;1mHTTP GET /api/v1/accounts/profile/ 401 [0.58, 127.0.0.1:53944][0m
+INFO 2025-03-14 22:59:19,219 runserver 20608 12328 [mHTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.05, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:59:23,034 log 20608 17244 Unauthorized: /api/v1/accounts/profile/
+WARNING 2025-03-14 22:59:23,035 runserver 20608 12328 [31;1mHTTP GET /api/v1/accounts/profile/ 401 [0.54, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:59:25,479 log 20608 17244 Unauthorized: /api/v1/accounts/profile/
+WARNING 2025-03-14 22:59:25,480 runserver 20608 12328 [31;1mHTTP GET /api/v1/accounts/profile/?format=json 401 [0.49, 127.0.0.1:53944][0m
+WARNING 2025-03-14 22:59:28,094 log 20608 17244 Unauthorized: /api/v1/accounts/profile/
+WARNING 2025-03-14 22:59:28,095 runserver 20608 12328 [31;1mHTTP GET /api/v1/accounts/profile/ 401 [0.45, 127.0.0.1:53944][0m
+WARNING 2025-03-14 23:02:16,126 log 20608 17244 Bad Request: /api/v1/accounts/verify-email/NA/cmisbt-866f33c3544052755d86c96f7550828b/
+WARNING 2025-03-14 23:02:16,127 runserver 20608 12328 [31;1mHTTP GET /api/v1/accounts/verify-email/NA/cmisbt-866f33c3544052755d86c96f7550828b/ 400 [0.70, 127.0.0.1:54357][0m
+INFO 2025-03-14 23:06:51,643 runserver 20608 12328 [mHTTP GET /api/v1/accounts/home 200 [0.56, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:07:28,042 runserver 20608 12328 [mHTTP GET /api/v1/accounts/google/login/ 200 [0.92, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:07:32,058 runserver 20608 12328 [mHTTP GET /api/v1/accounts/logout/ 200 [0.56, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:07:36,123 runserver 20608 12328 [mHTTP GET /api/v1/accounts/logout/ 200 [0.60, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:07:39,355 runserver 20608 12328 [32mHTTP POST /api/v1/accounts/logout/ 302 [1.27, 127.0.0.1:54741][0m
+WARNING 2025-03-14 23:07:39,420 log 20608 17244 Not Found: /api/v1/accounts/home/
+WARNING 2025-03-14 23:07:39,421 runserver 20608 12328 [33mHTTP GET /api/v1/accounts/home/ 404 [0.06, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:07:44,849 runserver 20608 12328 [mHTTP GET /api/v1/accounts/home 200 [0.05, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:07:45,921 runserver 20608 12328 [mHTTP GET /api/v1/accounts/google/login/ 200 [0.55, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:08:16,936 runserver 20608 12328 [32mHTTP POST /api/v1/accounts/google/login/ 302 [0.80, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:08:30,784 runserver 20608 12328 [32mHTTP GET /api/v1/accounts/google/login/callback/?state=N6ZftUB5eIoduXio&code=4%2F0AQSTgQGKNnAu6X3Q_NoHHaOfxm-qZCi7lWaI0Vr9s3PNztIZP6MwO-ReSyuwAMH-u9Fm4g&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent 302 [4.70, 127.0.0.1:54741][0m
+WARNING 2025-03-14 23:08:38,040 log 20608 17244 Not Found: /accounts/profile/
+WARNING 2025-03-14 23:08:38,041 runserver 20608 12328 [33mHTTP GET /accounts/profile/ 404 [7.25, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:09:36,907 runserver 20608 12328 [mHTTP GET /api/v1/accounts/google/login/ 200 [3.16, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:09:58,458 runserver 20608 12328 [mHTTP GET /api/v1/accounts/3rdparty/ 200 [1.57, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:10:09,097 runserver 20608 12328 [32mHTTP GET /api/v1/accounts/password/change/ 302 [0.55, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:10:09,655 runserver 20608 12328 [mHTTP GET /api/v1/accounts/password/set/ 200 [0.55, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:10:25,085 runserver 20608 12328 [mHTTP GET /api/v1/accounts/email/ 200 [1.82, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:10:32,001 runserver 20608 12328 [32mHTTP POST /api/v1/accounts/email/ 302 [2.20, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:10:32,615 runserver 20608 12328 [mHTTP GET /api/v1/accounts/email/ 200 [0.61, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:10:55,857 runserver 20608 12328 [mHTTP GET /api/v1/accounts/email/ 200 [0.63, 127.0.0.1:54741][0m
+WARNING 2025-03-14 23:11:38,618 log 20608 17244 Not Found: /api/v1/accounts/social/login/
+WARNING 2025-03-14 23:11:38,619 runserver 20608 12328 [33mHTTP GET /api/v1/accounts/social/login/ 404 [0.66, 127.0.0.1:54741][0m
+INFO 2025-03-14 23:18:36,507 autoreload 20608 18948 D:\code\backend\CineSocial\settings\base.py changed, reloading.
+INFO 2025-03-14 23:18:38,709 autoreload 6196 15756 Watching for file changes with StatReloader
+INFO 2025-03-14 23:18:45,006 autoreload 6196 15756 D:\code\backend\CineSocial\settings\base.py changed, reloading.
+INFO 2025-03-14 23:18:47,446 autoreload 3204 2576 Watching for file changes with StatReloader
+INFO 2025-03-14 23:18:56,765 autoreload 3204 2576 D:\code\backend\CineSocial\settings\base.py changed, reloading.
+INFO 2025-03-14 23:19:00,209 autoreload 25028 25032 Watching for file changes with StatReloader

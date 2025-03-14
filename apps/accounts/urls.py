@@ -8,9 +8,8 @@ app_name = 'accounts'
 urlpatterns = [
     #sing with google
     #test icin
-path("home", views.home, name="home"),  # ✅ No trailing slash
+path("home", views.home, name="home"),  # 
  # ✅ Add trailing slash
-
     path("logout",views.logout_view,name = "logout"),
     
     # Kimlik doğrulama

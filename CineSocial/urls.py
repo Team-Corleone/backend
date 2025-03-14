@@ -12,7 +12,7 @@ from rest_framework_simplejwt.views import (
 
 # API URL desenleri
 api_patterns = [
-     path('accounts/', include('allauth.urls')),
+    path('accounts/', include('allauth.urls')),
     path('auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('accounts/', include('apps.accounts.urls')),

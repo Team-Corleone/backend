@@ -48,6 +48,8 @@ class Movie(models.Model):
     cast = models.ManyToManyField(Person, through='MovieCast', related_name='movies_acted')
     crew = models.ManyToManyField(Person, through='MovieCrew', related_name='movies_worked')
     
+    #fragman linkleri listesi olacak
+    # trailer = models.URLField(_('Fragman'), blank=True)
     class Meta:
         verbose_name = _('Film')
         verbose_name_plural = _('Filmler')

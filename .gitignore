@@ -12,3 +12,4 @@ __pycache__/
 CineSocial/__pycache__
 CineSocial/settings/__pycache__/
 
+.env
